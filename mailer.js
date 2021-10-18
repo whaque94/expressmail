@@ -28,8 +28,8 @@ exports.mailer=function(name,email,Message){
     });
 
     const mailOptions={
-        from:"cricketraid200@gmail.com",
-       to:"cricketraid200@gmail.com",
+        from:"test.workwhaque@gmail.com",
+       to:"test.workwhaque@gmail.com",
        subject:"Portfolio Message",
        generateTextFromHTML:true,
        html:`<p>Hi I am ${name}.</p><p>My email is ${email}</p><p>${Message}</p>`
