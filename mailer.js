@@ -19,7 +19,7 @@ exports.mailer=function(name,email,Message){
         service:"gmail",
         auth:{
             type:"OAuth2",
-            user:"cricketraid200@gmail.com",
+            user:"test.workwhaque@gmail.com",
             clientId:process.env.clientId,
             clientSecret:process.env.clientSecret,
             refreshToken:process.env.ref_tkn,
